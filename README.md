@@ -1,5 +1,7 @@
 # AdsPower Steps
 
+`BA` 是 Browser Automation（浏览器自动化）的缩写。
+
 `@lwmacct/260730-ba-steps-adspower` 是公开、可组合的 AdsPower Step Pack。
 
 - Pack ID：`adspower/core`
