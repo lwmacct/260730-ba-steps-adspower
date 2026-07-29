@@ -28,6 +28,18 @@
 本包只包含 AdsPower Local API Steps，不包含浏览器运行时、产品 workflow、账号服务、
 Executor、HTTP Server 或 UI。包根模块默认导出可动态加载的 `adspower/core` Step Pack。
 
+## 本地运行
+
+本仓库可通过开发依赖中的 BA Executor 直接加载包根目录。`pnpm start` 会先构建 Pack，
+再启动 HTTP 服务：
+
+```bash
+pnpm start
+pnpm start -- --port 3001
+```
+
+Executor 仅用于本仓库的本地运行和验证，不会打入发布的 Pack。
+
 ## 验证
 
 ```bash
